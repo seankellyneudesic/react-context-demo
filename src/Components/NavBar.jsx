@@ -7,11 +7,11 @@ function NavBar() {
 
     return (
         <div style={{ height: 50, width: '100vw', backgroundColor: '#55eeff', top: 0, position: 'fixed' }}>
-            <display style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 {!state.isAuthenticated && <div style={{ margin: 10 }}>I don't know you!</div>}
                 {state.isAuthenticated && <div style={{ margin: 10 }}>Welcome, {state.username}</div>}
-            </display>
+            </div>
         </div>
     );
 }
-export default NavBar;
+export default NavBar; yarn
