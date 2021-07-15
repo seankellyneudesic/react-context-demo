@@ -14,4 +14,4 @@ function NavBar() {
         </div>
     );
 }
-export default NavBar; yarn
+export default NavBar;
